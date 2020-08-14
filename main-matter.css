@@ -1,14 +1,13 @@
 .news {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
     grid-area: content;
-    justify-content: center;
-    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    max-width: 1140px;
 }
 
 .news-matter {
     background-color: #ffffff;
-    display: grid;
     grid-template-areas: 
         "matter-image"
         "matter-body";
